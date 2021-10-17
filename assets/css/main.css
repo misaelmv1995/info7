@@ -5,6 +5,46 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.analisisDropdown {
+	position: relative;
+	display: inline-block;
+
+  }
+  
+.analisis-content {
+display: none;
+position: absolute;
+background-color: #3B4346 ;
+min-width: 450px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding-top: 5px;
+z-index: 1;
+}
+
+.analisisDropdown:hover .analisis-content {
+display: block;
+}
+
+.disenioDropdown {
+	position: relative;
+	display: inline-block;
+	margin-right: 40px;
+  }
+  
+.disenio-content {
+display: none;
+position: absolute;
+background-color: #3B4346 ;
+min-width: 500px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding-top: 5px;
+z-index: 1;
+}
+
+.disenioDropdown:hover .disenio-content {
+display: block;
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
